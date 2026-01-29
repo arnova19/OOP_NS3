@@ -1,8 +1,10 @@
 #include <iostream>
-#include "Dummy.h"
+#include "AwgnChannelModel.h"
 
 int main() {
-  Dummy d;
-  std::cout << d.hello() << std::endl;
-  return 0;
+    AwgnChannelModel model;
+    std::cout << "Calling estimates.." << std::endl;
+    std::cout << "Result = " << model.EstimateBer(10.0) << std::endl;
+    return 0;
 }
+

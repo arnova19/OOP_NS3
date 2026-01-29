@@ -150,4 +150,5 @@ CMakeFiles/sim.dir/app/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/emulate5G/projects/OOP_NS3/cpp/include/Dummy.h
+ /home/emulate5G/projects/OOP_NS3/cpp/include/AwgnChannelModel.h \
+ /home/emulate5G/projects/OOP_NS3/cpp/include/IChannelModel.h

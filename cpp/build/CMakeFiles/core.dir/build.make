@@ -69,28 +69,28 @@ include CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core.dir/flags.make
 
-CMakeFiles/core.dir/src/Dummy.cpp.o: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/src/Dummy.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/src/Dummy.cpp
-CMakeFiles/core.dir/src/Dummy.cpp.o: CMakeFiles/core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/Dummy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core.dir/src/Dummy.cpp.o -MF CMakeFiles/core.dir/src/Dummy.cpp.o.d -o CMakeFiles/core.dir/src/Dummy.cpp.o -c /home/emulate5G/projects/OOP_NS3/cpp/src/Dummy.cpp
+CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/src/AwgnChannelModel.cpp
+CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o: CMakeFiles/core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o -MF CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o.d -o CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o -c /home/emulate5G/projects/OOP_NS3/cpp/src/AwgnChannelModel.cpp
 
-CMakeFiles/core.dir/src/Dummy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core.dir/src/Dummy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emulate5G/projects/OOP_NS3/cpp/src/Dummy.cpp > CMakeFiles/core.dir/src/Dummy.cpp.i
+CMakeFiles/core.dir/src/AwgnChannelModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core.dir/src/AwgnChannelModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emulate5G/projects/OOP_NS3/cpp/src/AwgnChannelModel.cpp > CMakeFiles/core.dir/src/AwgnChannelModel.cpp.i
 
-CMakeFiles/core.dir/src/Dummy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/Dummy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emulate5G/projects/OOP_NS3/cpp/src/Dummy.cpp -o CMakeFiles/core.dir/src/Dummy.cpp.s
+CMakeFiles/core.dir/src/AwgnChannelModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/AwgnChannelModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emulate5G/projects/OOP_NS3/cpp/src/AwgnChannelModel.cpp -o CMakeFiles/core.dir/src/AwgnChannelModel.cpp.s
 
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/src/Dummy.cpp.o"
+"CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
-libcore.a: CMakeFiles/core.dir/src/Dummy.cpp.o
+libcore.a: CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcore.a"

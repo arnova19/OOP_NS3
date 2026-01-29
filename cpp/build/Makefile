@@ -166,29 +166,29 @@ app/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-src/Dummy.o: src/Dummy.cpp.o
-.PHONY : src/Dummy.o
+src/AwgnChannelModel.o: src/AwgnChannelModel.cpp.o
+.PHONY : src/AwgnChannelModel.o
 
 # target to build an object file
-src/Dummy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Dummy.cpp.o
-.PHONY : src/Dummy.cpp.o
+src/AwgnChannelModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o
+.PHONY : src/AwgnChannelModel.cpp.o
 
-src/Dummy.i: src/Dummy.cpp.i
-.PHONY : src/Dummy.i
+src/AwgnChannelModel.i: src/AwgnChannelModel.cpp.i
+.PHONY : src/AwgnChannelModel.i
 
 # target to preprocess a source file
-src/Dummy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Dummy.cpp.i
-.PHONY : src/Dummy.cpp.i
+src/AwgnChannelModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/AwgnChannelModel.cpp.i
+.PHONY : src/AwgnChannelModel.cpp.i
 
-src/Dummy.s: src/Dummy.cpp.s
-.PHONY : src/Dummy.s
+src/AwgnChannelModel.s: src/AwgnChannelModel.cpp.s
+.PHONY : src/AwgnChannelModel.s
 
 # target to generate assembly for a file
-src/Dummy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Dummy.cpp.s
-.PHONY : src/Dummy.cpp.s
+src/AwgnChannelModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/AwgnChannelModel.cpp.s
+.PHONY : src/AwgnChannelModel.cpp.s
 
 # Help Target
 help:
@@ -203,9 +203,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... src/Dummy.o"
-	@echo "... src/Dummy.i"
-	@echo "... src/Dummy.s"
+	@echo "... src/AwgnChannelModel.o"
+	@echo "... src/AwgnChannelModel.i"
+	@echo "... src/AwgnChannelModel.s"
 .PHONY : help
 
 
