@@ -1,0 +1,4 @@
+/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles/core.dir
+/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles/sim.dir
+/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles/edit_cache.dir
+/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles/rebuild_cache.dir
