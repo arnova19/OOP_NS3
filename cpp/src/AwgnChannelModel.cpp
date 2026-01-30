@@ -2,5 +2,5 @@
 
 double AwgnChannelModel::EstimateBer(double snrDb)
 {
-    return snrDb*5;
+    return 1.0 / (1.0 + snrDb);
 }
