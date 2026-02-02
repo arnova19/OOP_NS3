@@ -7,6 +7,7 @@ CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o: /home/emulate5G/projects/OOP_NS3
   /usr/include/stdc-predef.h
 
 CMakeFiles/core.dir/src/ray.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/src/ray.cpp \
+  /home/emulate5G/projects/OOP_NS3/cpp/include/IChannelModel.h \
   /home/emulate5G/projects/OOP_NS3/cpp/include/ray.h \
   /usr/include/stdc-predef.h
 

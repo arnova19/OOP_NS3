@@ -10,17 +10,13 @@ int main() {
     IChannelModel*model = nullptr;
 
     if (choice == 1) {
-        AwgnChannelModel model;
         std::cout << "Using AWGN model" << std::endl;
-        std::cout << "BER = " << model.EstimateBer(snr) << std::endl;
         model = new AwgnChannelModel();
     } else {
-        raychannel ray;
         std::cout << "Using Rayleigh model" << std::endl;
-        std::cout << "BER = " << ray.EstimateBer(snr) << std::endl;
-        model = new raychhannel();
+        model = new raychannel();
     }
-    double ber = model->EstimateBer(snr)
+    double ber = model->EstimateBer(snr);
     std::cout << "BER = " << ber << std::endl;
     return 0;
 }

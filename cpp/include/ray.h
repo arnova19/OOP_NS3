@@ -1,5 +1,5 @@
 #pragma once
-#include IChannelModel.h
+#include "IChannelModel.h"
 
 class raychannel : public IChannelModel {
 public:
