@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_library(core
     src/AwgnChannelModel.cpp
+    src/ray.cpp
 )
 
 target_include_directories(core PUBLIC include)

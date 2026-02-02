@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o"
   "CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o.d"
+  "CMakeFiles/core.dir/src/ray.cpp.o"
+  "CMakeFiles/core.dir/src/ray.cpp.o.d"
   "libcore.a"
   "libcore.pdb"
 )

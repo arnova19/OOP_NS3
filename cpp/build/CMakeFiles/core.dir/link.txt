@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcore.a CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o
+/usr/bin/ar qc libcore.a CMakeFiles/core.dir/src/AwgnChannelModel.cpp.o CMakeFiles/core.dir/src/ray.cpp.o
 /usr/bin/ranlib libcore.a

@@ -83,12 +83,12 @@ clean: CMakeFiles/sim.dir/clean
 CMakeFiles/core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=1,2 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=1,2,3 "Built target core"
 .PHONY : CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/core.dir/rule
@@ -109,12 +109,12 @@ CMakeFiles/core.dir/clean:
 CMakeFiles/sim.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=3,4 "Built target sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles --progress-num=4,5 "Built target sim"
 .PHONY : CMakeFiles/sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/emulate5G/projects/OOP_NS3/cpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/sim.dir/rule
