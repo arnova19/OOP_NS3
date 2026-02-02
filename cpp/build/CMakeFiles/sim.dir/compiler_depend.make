@@ -4,6 +4,7 @@
 CMakeFiles/sim.dir/app/main.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/app/main.cpp \
   /home/emulate5G/projects/OOP_NS3/cpp/include/AwgnChannelModel.h \
   /home/emulate5G/projects/OOP_NS3/cpp/include/IChannelModel.h \
+  /home/emulate5G/projects/OOP_NS3/cpp/include/ray.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -263,6 +264,10 @@ CMakeFiles/sim.dir/app/main.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/app/main
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
 /usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/features.h:
@@ -292,6 +297,10 @@ CMakeFiles/sim.dir/app/main.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/app/main
 /usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
@@ -345,19 +354,17 @@ CMakeFiles/sim.dir/app/main.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/app/main
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/home/emulate5G/projects/OOP_NS3/cpp/include/ray.h:
 
 /usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/bits/stringfwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -562,7 +569,3 @@ CMakeFiles/sim.dir/app/main.cpp.o: /home/emulate5G/projects/OOP_NS3/cpp/app/main
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:

@@ -3,13 +3,19 @@
 #include "ray.h"
 
 int main() {
-    AwgnChannelModel model;
-    raychannel ray;
+    double snr = 10.0;
+    int choice = 2;   // 1 = AWGN, 2 = Rayleigh
 
-    std::cout << "Calling estimates.." << std::endl;
-    std::cout << "Result = " << model.EstimateBer(5.0) << std::endl;
-    std::cout << "SNR 20 ->" << model.EstimateBer(10.0) << std::endl;
-    std::cout << ray.EstimateBer(6.9) << std::endl;
+    if (choice == 1) {
+        AwgnChannelModel model;
+        std::cout << "Using AWGN model" << std::endl;
+        std::cout << "BER = " << model.EstimateBer(snr) << std::endl;
+    } else {
+        raychannel model;
+        std::cout << "Using Rayleigh model" << std::endl;
+        std::cout << "BER = " << model.EstimateBer(snr) << std::endl;
+    }
+
     return 0;
 }
 

@@ -5,6 +5,7 @@ CMakeFiles/sim.dir/app/main.cpp.o
  /home/emulate5G/projects/OOP_NS3/cpp/app/main.cpp
  /home/emulate5G/projects/OOP_NS3/cpp/include/AwgnChannelModel.h
  /home/emulate5G/projects/OOP_NS3/cpp/include/IChannelModel.h
+ /home/emulate5G/projects/OOP_NS3/cpp/include/ray.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
