@@ -5,6 +5,7 @@
 int main() {
     double snr = 5.0;
     int choice = 2;   // 1 = AWGN, 2 = Rayleigh
+    double ber = 0.0;
 
     if (choice == 1) {
         AwgnChannelModel model;
@@ -16,6 +17,7 @@ int main() {
         std::cout << "BER = " << ray.EstimateBer(snr) << std::endl;
     }
 
+    std::cout << "BER = " << ber << std::endl;
     return 0;
 }
 
