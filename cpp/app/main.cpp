@@ -17,7 +17,7 @@ int main() {
         model = new raychannel();
     }
     double ber = model->EstimateBer(snr);
-    std::cout << "BER is = " << ber << std::endl;
+    std::cout << "BER is just to change  = " << ber << std::endl;
     return 0;
 }
 
