@@ -1,1 +1,22 @@
+#include <iostream> 
 
+class Node {
+public:
+    int id;
+    void use(){
+        id = id - 2;
+        std::cout << "Battery level reduced to 2%, new level is" << "\n" << id;
+    }
+};
+
+int main() {
+    Node AAA;
+    Node AA;
+    AAA.id = 100;
+    AA.id = 98;
+
+    AAA.use();
+    AAA.use();
+    AA.use();
+
+}
