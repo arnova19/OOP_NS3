@@ -1,23 +1,27 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
-#include "AwgnChannelModel.h"
-#include "ray.h"
-#include "IChannelModel.h"
+class Node{
+public:
+    int id;
+    void use (){
+        id = id - 2;
+        std::cout << "(Used 2% of the battery!) = " << id << "\n";
+    }
+};
+
 
 int main() {
-    double snr = 5.0;
-    int choice = 2;   // 1 = AWGN, 2 = Rayleigh
+    Node battery1;
+    Node battery2;
     
-    IChannelModel*model = nullptr;
-
-    if (choice == 1) {
-        std::cout << "Using AWGN model" << std::endl;
-        model = new AwgnChannelModel();
-    } else {
-        std::cout << "Using Rayleigh model" << std::endl;
-        model = new raychannel();
-    }
-    double ber = model->EstimateBer(snr);
-    std::cout << "BER is just to change  = " << ber << std::endl;
+    battery1.id = 100;
+    battery2.id = 50;
+    
+    // Write C++ code here
+    std::cout << "Battery level of battery1 is ";
+    battery1.use();
+    battery1.use ();
+    std::cout << "Battery level of 2nd battery is ";
+    battery2.use();
     return 0;
 }
-
