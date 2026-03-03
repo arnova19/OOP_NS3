@@ -5,9 +5,10 @@ class car {         // The class
   public:
     int id;
     string name;
+    int descr;
     string brand;// Access specifier
-    void task() {   // Method/function
-      cout << "The car is " << brand << " with an id " << id;
+    void task(int descr) {   // Method/function
+      cout << "The car is " << descr/id << " % charged with an id " << id;
     }
 };
 
@@ -16,6 +17,6 @@ int main() {
   car1.id = 12;
   car1.name = "sedan";
   car1.brand = "audi";// Create an object of MyClass
-  car1.task();  // Call the method
+  car1.task(120);  // Call the method
   return 0;
 }
